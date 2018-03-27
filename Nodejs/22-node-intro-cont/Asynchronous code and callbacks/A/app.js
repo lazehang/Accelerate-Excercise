@@ -10,6 +10,7 @@ processArray(myArray, function (a) {
 });
 // [ 12, 13, 14, 6, 7 ]
 
+
 function processArray(array, callback) {
 	let newArray = [];
 
