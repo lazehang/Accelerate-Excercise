@@ -16,7 +16,9 @@ function processArray(array, callback) {
 
 	array.forEach(function(arr) {
 		newArray.push(callback(arr));
+	console.log(newArray);
+		
 	});
 
-	console.log(newArray);
+	// console.log(newArray);
 }
